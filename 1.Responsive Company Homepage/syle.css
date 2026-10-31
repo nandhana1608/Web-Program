@@ -1,0 +1,84 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background-color: rgb(113, 113, 161);
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    
+}
+
+
+/* Hero */
+.hero {
+    text-align: center;
+}
+
+.hero img {
+    width: 50%;
+    height: 250px;
+}
+
+.hero h2 {
+    margin: 10px;
+}
+
+
+/* Services */
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.services div {
+    border: 1px solid red;
+    background-color: rgb(245, 248, 247);
+    padding: 15px;
+}
+
+
+/* Footer */
+footer {
+    background-color: rgb(109, 109, 112);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+/* Mobile */
+@media (max-width: 600px) {
+
+    header {
+        display: block;
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px;
+    }
+
+    .services {
+        grid-template-columns: 1fr;
+    }
+
+   
+}
