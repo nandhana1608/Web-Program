@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>ENY Technology</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+<div class="photo">
+    <img src="new.avif" alt="Company Photo">
+</div>
+<!-- Home -->
+<main>
+    <h2>Welcome to ENY Company</h2>
+
+    <p>
+        ENY Company is a technology company that provides
+        simple and reliable solutions for businesses.
+    </p>
+
+    <p>
+        We help our customers improve their business using
+        modern technology and quality services.
+    </p>
+</main>
+
+<footer>
+    <p>ENY Technology, Kerala</p>
+    <p>Email: enytech@gmail.com</p>
+</footer>
+
+</body>
+</html>
